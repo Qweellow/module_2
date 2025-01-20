@@ -8,7 +8,6 @@ def find_password(n):
                     result += str(i) + str(j)
     return result
 
-# Пример использования:
 n = int(input('Введите число от 3 до 20: '))
 password = find_password(n)
 print('Нужный пароль:', password)
